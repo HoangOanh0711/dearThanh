@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">doancuoiki</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="menu_history">History</string>
+    <string name="menu_change">Change Profile</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_term">Terms and Policy</string>
+    <string name="menu_help">Help Center</string>
+    <string name="menu_about">About us</string>
+    <string name="menu_logout">Logout</string>
+
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="title_activity_menu2">menu2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu_24" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="231dp"
+            android:layout_height="46dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/left_icon"
+            android:fontFamily="@font/segoeuib"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="20dp"
+            android:text="Grocery Heaven"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/center_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/toolbar_title"
+            android:src="@drawable/ic_search_24" />
+
+        <ImageView
+            android:id="@+id/right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_cart" />
+    </RelativeLayout>
+
+</RelativeLayout>
